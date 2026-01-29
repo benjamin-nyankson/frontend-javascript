@@ -1,9 +1,11 @@
-export function isDirector(salary){
-return salary > 500
+export function isDirector(employee){
 }
 
-function executeWork(){
-if(isDirector(5000)){
-    
+function executeWork(employee){
+if(isDirector(employee)){
+    return employee.workDirectorTasks()
+}
+else{
+    return employee.workTeacherTasks()
 }
 }
