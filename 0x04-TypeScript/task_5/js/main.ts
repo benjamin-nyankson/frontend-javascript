@@ -1,6 +1,9 @@
 // Function to sum MajorCredits
-export function sumMajorCredits(subject1: { MajorCredits: number }, subject2: { MajorCredits: number }): number {
-  return subject1.MajorCredits + subject2.MajorCredits;
+interface MajorCredits{
+    credits:number
+}
+export function sumMajorCredits(subject1: MajorCredits, subject2: {MajorCredits): number {
+  return subject1.credits + subject2.credits;
 }
 
 // Function to sum MinorCredits
