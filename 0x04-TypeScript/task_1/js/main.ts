@@ -24,3 +24,7 @@ const teacher2: Teacher = {
   location: "Kumasi",
   contract: true,
 };
+
+function isDirector(emplyee){
+  
+}
